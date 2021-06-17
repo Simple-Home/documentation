@@ -1,6 +1,6 @@
 # api
 
-`/v1/setup`
+UR: `/v1/setup`
 
 ## Requst Headers
 `Content-Type: application/json`
