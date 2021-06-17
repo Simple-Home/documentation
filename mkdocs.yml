@@ -4,7 +4,19 @@ theme:
   name: material
   logo: https://raw.githubusercontent.com/Simple-Home/Simple-Home/master/public/images/logo.png
   palette:
-    accent: light green
-    primary: light green
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      accent: light green
+      primary: light green
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: light green
+      primary: light green
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
 markdown_extensions:
   - codehilite
