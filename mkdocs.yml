@@ -2,8 +2,8 @@ site_name: SimpleHome-Documentation
 site_url: https://simple-home.github.io/documentation/
 theme:
   name: material
-  palette:
   logo: https://raw.githubusercontent.com/Simple-Home/Simple-Home/master/public/images/logo.png
+  palette:
     accent: light green
     primary: light green
 markdown_extensions:
