@@ -1,6 +1,8 @@
 URL: `/v1/ota`
 
-Example Response:
+## Request Headers
+
+## Response Body
 ```json
 Return Bin File with firmware
 ```

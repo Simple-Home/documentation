@@ -1,11 +1,11 @@
 UR: `/v1/data`
 
-## Requst Headers
+## Request Headers
 `Content-Type: application/json`
 
 `Authorization: Bearer [token]`
 
-## Requst Body:
+## Request Body
 ```json
 {
 	"wifi":-60,
@@ -14,10 +14,9 @@ UR: `/v1/data`
 }
 ```
 
-## Requst Headers
+## Response Headers
 
-
-## Example Response:
+## Response body
 ```json
 {
 	"wifi":-60,
