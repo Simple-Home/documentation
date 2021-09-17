@@ -1,4 +1,4 @@
-# Device -> Types Definition
+# Device -> Types Definition 2.0
 
 MainType:
 
