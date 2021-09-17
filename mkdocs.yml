@@ -2,7 +2,7 @@ site_name: SimpleHome-Documentation
 site_url: https://simple-home.github.io/documentation/
 theme:
   name: material
-  logo: https://raw.githubusercontent.com/Simple-Home/Simple-Home/master/public/images/logo.png
+  logo: img/logo.svg
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -18,5 +18,26 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+extra:
+  version:
+    provider: mike
 markdown_extensions:
   - codehilite
+  - mdx_truly_sane_lists
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      htmlmin_opts:
+          remove_comments: true
+  - mike:
+      # these fields are all optional; the defaults are as below...
+      version_selector: true   # set to false to leave out the version selector
+      css_dir: css             # the directory to put the version selector's CSS
+      javascript_dir: js       # the directory to put the version selector's JS
+      canonical_version: null  # the version for <link rel="canonical">; `null`
+                               # uses the version specified via `mike deploy`
+nav:
+  - Home: "index.md"
+  - Version Selector: "../"
