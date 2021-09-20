@@ -1,3 +1,5 @@
+> **✋ Legaci API**: This documentation is still WIP :)
+
 <p align="center">
   <a href="https://github.com/Simple-Home/Simple-Home">
     <img src="img/logo.svg" height="200" width="200">
