@@ -1,4 +1,4 @@
-> **✋ Legaci API**: This documentation is still WIP :)
+> **✋ Documentation WIP**: This documentation is still WIP :)
 
 <p align="center">
   <a href="https://github.com/Simple-Home/Simple-Home">
