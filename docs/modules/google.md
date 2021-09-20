@@ -45,4 +45,4 @@
 - Device (Termostat):
   - temperture_control
 
-## Congifuration
+## Configuration
