@@ -7,3 +7,4 @@
 * PHP [dom extension](https://www.php.net/manual/en/book.dom.php)
 * Composer
 * MySQL Server
+* Cron
