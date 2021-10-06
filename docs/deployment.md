@@ -5,9 +5,14 @@
 * Run the command: composer install
 * Run the command: npm install
 * Create a database in MySQL
-* add folovin lines to your Cron tab
-    ```
+* add folovin lines to your Cron tab:
+  
+    ```batch
     * * * * * cd /var/www/dev.steelants.cz/vasek/simple-home-v4/ && php artisan schedule:run >> /dev/null 2>&1
+    ```
+
+    ```batch
     * 1 * * * cd /var/www/dev.steelants.cz/vasek/simple-home-v4/ && php artisan queue:work --stop-when-empty >> /dev/null 2>&1
     ```
+
 * Visit your webservers URL and proceed with setup

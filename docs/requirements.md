@@ -1,4 +1,5 @@
 ## Server Requirements
+* Cron
 * PHP 7.4 or greater.
 * PHP [cURL extension](https://www.php.net/manual/en/book.curl.php)
 * PHP [mySQLi extension](https://www.php.net/manual/en/book.mysqli.php)
@@ -7,4 +8,3 @@
 * PHP [dom extension](https://www.php.net/manual/en/book.dom.php)
 * Composer
 * MySQL Server
-* Cron
